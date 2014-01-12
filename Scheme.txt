@@ -1,0 +1,24 @@
+
+# Data
+Central Data  (size, start)
+     |
+     `-Table
+     |
+     `-Linked List
+     |
+     `-Avail
+
+# Interface
+                Box ----.
+                 :      |
+                 :      `---- Table Box       (vector)
+                 :      |
+                 :      `---- Linked List Box (QLinkedList)
+          ,------'      |
+          :             `---- Avail Box       (QLinkedList)
+          :
+        Item ---.
+                |
+                `---- Node    SIGNAL(delete)
+                |
+                `---- Linker  SIGNAL(insert)

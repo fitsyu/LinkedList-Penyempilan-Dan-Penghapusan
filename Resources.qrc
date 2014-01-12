@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Banner.gif</file>
+        <file>Avail.png</file>
+        <file>LinkedList.png</file>
+        <file>Table.png</file>
+    </qresource>
+</RCC>
